@@ -1,0 +1,28 @@
+2018-09-23 15:29:27.765  INFO 8476 --- [main] com.ws.inpe.Application                  : Starting Application on REDR4GON with PID 8476 (C:\Users\adaoa\projeto\inpe-ws\target\classes started by adaoa in C:\Users\adaoa\projeto\inpe-ws)
+2018-09-23 15:29:27.768 DEBUG 8476 --- [main] com.ws.inpe.Application                  : Running with Spring Boot v1.5.14.RELEASE, Spring v4.3.18.RELEASE
+2018-09-23 15:29:27.769  INFO 8476 --- [main] com.ws.inpe.Application                  : No active profile set, falling back to default profiles: default
+2018-09-23 15:29:30.424  INFO 8476 --- [main] com.ws.inpe.Application                  : Started Application in 2.986 seconds (JVM running for 3.921)
+2018-09-23 15:29:32.598  INFO 8476 --- [http-nio-8081-exec-1] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: healthCheck
+2018-09-23 15:30:24.580  INFO 6988 --- [main] com.ws.inpe.Application                  : Starting Application on REDR4GON with PID 6988 (C:\Users\adaoa\projeto\inpe-ws\target\classes started by adaoa in C:\Users\adaoa\projeto\inpe-ws)
+2018-09-23 15:30:24.596 DEBUG 6988 --- [main] com.ws.inpe.Application                  : Running with Spring Boot v1.5.14.RELEASE, Spring v4.3.18.RELEASE
+2018-09-23 15:30:24.596  INFO 6988 --- [main] com.ws.inpe.Application                  : No active profile set, falling back to default profiles: default
+2018-09-23 15:30:27.253  INFO 6988 --- [main] com.ws.inpe.Application                  : Started Application in 3.016 seconds (JVM running for 3.778)
+2018-09-23 15:30:39.813  INFO 6988 --- [http-nio-8081-exec-1] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: healthCheck
+2018-09-23 15:30:54.870  INFO 6988 --- [http-nio-8081-exec-2] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: status
+2018-09-23 15:30:57.622  INFO 6988 --- [http-nio-8081-exec-3] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: verifica/json
+2018-09-23 15:31:09.221  INFO 6988 --- [http-nio-8081-exec-4] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: controlaON
+2018-09-23 15:31:09.798  INFO 6988 --- [http-nio-8081-exec-4] com.ws.inpe.util.MQTTPublish             : Publicando no tópico: irrigacao com level(qos) 0 - envio e exclusão!
+2018-09-23 15:31:09.807  INFO 6988 --- [MQTT Call: 4173a891-7de3-43b8-a0f5-2fe60ac5313a] com.ws.inpe.util.INPECommunication       : Mensagem enviada: {"status":"ON"}
+2018-09-23 15:31:15.655  INFO 6988 --- [http-nio-8081-exec-5] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: controlaON
+2018-09-23 15:31:46.007  INFO 6988 --- [http-nio-8081-exec-6] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: controlaON
+2018-09-23 15:33:16.375  INFO 8216 --- [main] com.ws.inpe.Application                  : Starting Application on REDR4GON with PID 8216 (C:\Users\adaoa\projeto\inpe-ws\target\classes started by adaoa in C:\Users\adaoa\projeto\inpe-ws)
+2018-09-23 15:33:16.390 DEBUG 8216 --- [main] com.ws.inpe.Application                  : Running with Spring Boot v1.5.14.RELEASE, Spring v4.3.18.RELEASE
+2018-09-23 15:33:16.390  INFO 8216 --- [main] com.ws.inpe.Application                  : No active profile set, falling back to default profiles: default
+2018-09-23 15:33:19.027  INFO 8216 --- [main] com.ws.inpe.Application                  : Started Application in 2.902 seconds (JVM running for 3.727)
+2018-09-23 15:33:25.496  INFO 8216 --- [http-nio-8081-exec-1] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: controlaON
+2018-09-23 15:33:29.875  INFO 8216 --- [http-nio-8081-exec-1] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: controla - UNAUTHORIZED
+2018-09-23 15:36:37.825  INFO 8216 --- [http-nio-8081-exec-3] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: controlaON
+2018-09-23 15:36:38.931  INFO 8216 --- [http-nio-8081-exec-3] com.ws.inpe.util.MQTTPublish             : Publicando no tópico: irrigacao com level(qos) 0 - envio e exclusão!
+2018-09-23 15:36:38.931  INFO 8216 --- [MQTT Call: d1c8d8be-9d15-4a5e-8855-83008d1ede81] com.ws.inpe.util.INPECommunication       : Mensagem enviada: {"status":"ON"}
+2018-09-23 15:37:21.044  INFO 8216 --- [http-nio-8081-exec-4] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: controlaON
+2018-09-23 15:37:21.044  INFO 8216 --- [http-nio-8081-exec-4] c.w.inpe.controller.IrrigacaoController  : controllerIrrigacao: controla - UNAUTHORIZED
